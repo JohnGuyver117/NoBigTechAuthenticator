@@ -1,27 +1,68 @@
 # No Big Tech Authenticator
-*-english-*
 
-A little less depenend on Big Tech with this open source Authenticator for Two-Factor Authentication (2FA) or Multi-Factor Authentication (MFA).
+## English
 
-You can run it from the commandline and uses python 3.
-Usage:
+### Description
 
-1. install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/);
-2. run **pip install customtkinter pyotp cryptography**
-3. run **python3 NoBigTech.py**.
+A little less dependent on Big Tech with this open source Authenticator for Two-Factor Authentication (2FA) or Multi-Factor Authentication (MFA).
 
-The secrets file (**authenticator_secrets.enc**) is encrypted and should be protected with the Linux **chmod 600** command.
+### Features
 
-*-Nederlands / Dutch-*
+- Open source and independent of big tech companies.
+- Supports 2FA and MFA.
+- Data is securely stored in an encrypted file.
 
-Een beetje minder afhankelijk van Big Tech met deze opensource Authenticator voor twweestapsverificatie (2FA) of Multi Factor Authentication (MFA).
+### Installation Instructions
 
-Je kunt het programma met python3 uitvoeren.
+You can run it with Python 3.
 
-Werkwijze:
+1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/);
+2. Run **pip install customtkinter pyotp cryptography**;
+3. Start the authenticator with **python3 NoBigTechAuth.py**.
 
-1. installeer Python van [https://www.python.org/downloads/](https://www.python.org/downloads/);
-2. voer na installatie dit commando uit: **pip install customtkinter pyotp cryptography**
-3. vanaf nu start je de auhenticator als volgt: **python3 NoBigTech.py**.
+### Security
 
-Het bestand #authenticator_secrets.enc# bevat de geheimen/secrets en is versleuteld. Onder Linux kun je dit bestand met **chmod 600** nog beter afschermen.
+The secrets file **authenticator_secrets.enc** is encrypted and should be protected with the Linux command **chmod 600**.
+
+### Contribution
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+### License
+
+This project is licensed under the MIT License - see the **LICENSE** file for details.
+
+
+---
+
+## Nederlands
+
+### Beschrijving
+
+Een beetje minder afhankelijk van Big Tech met deze opensource Authenticator voor tweefactorauthenticatie (2FA) of Multi-Factor Authentication (MFA).
+
+### Kenmerken
+
+- Open source en onafhankelijk van grote technologiebedrijven.
+- Ondersteunt 2FA en MFA.
+- Gegevens worden veilig opgeslagen in een versleuteld bestand.
+
+### Installatie-instructies
+
+Je kunt het programma met Python 3 uitvoeren.
+
+1. Installeer Python van [https://www.python.org/downloads/](https://www.python.org/downloads/);
+2. Voer na installatie dit commando uit: **pip install customtkinter pyotp cryptography**;
+3. Vanaf nu start je de authenticator als volgt: **python3 NoBigTechAuth.py**.
+
+### Veiligheid
+
+Het bestand **authenticator_secrets.enc** bevat de geheimen/secrets en is versleuteld. Onder Linux kun je dit bestand met het commando **chmod 600** nog beter afschermen.
+
+### Contributie
+
+Bijdragen zijn welkom! Voel je vrij om een probleem te openen of een pull-verzoek in te dienen.
+
+### Licentie
+
+Dit project is gelicenseerd onder de MIT-licentie - zie het **LICENTIE** bestand voor details.
