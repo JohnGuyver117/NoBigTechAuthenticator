@@ -30,7 +30,7 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ### License
 
-This project is licensed under the MIT License - see the **LICENSE** file for details.
+This project is licensed under the MIT License - see the **LICENSE.txt** file for details.
 
 
 ---
@@ -65,4 +65,4 @@ Bijdragen zijn welkom! Voel je vrij om een probleem te openen of een pull-verzoe
 
 ### Licentie
 
-Dit project is gelicenseerd onder de MIT-licentie - zie het **LICENTIE** bestand voor details.
+Dit project is gelicenseerd onder de MIT-licentie - zie het **LICENTIE.txt** bestand voor details.
