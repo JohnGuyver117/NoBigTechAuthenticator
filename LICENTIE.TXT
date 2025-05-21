@@ -1,0 +1,8 @@
+Hier is de vertaling naar het Nederlands:
+-------------------------
+
+Copyright (c) 2025 J.P. Kloosterman
+Hierbij wordt toestemming verleend, gratis en zonder kosten, aan elke persoon die een kopie van deze software en bijbehorende documentatiebestanden (de "Software") verkrijgt, om met de Software te handelen zonder beperkingen, inclusief maar niet beperkt tot de rechten om de Software te gebruiken, kopiëren, wijzigen, samenvoegen, publiceren, distribueren, sublicentiëren en/of kopieën van de Software te verkopen, en om personen aan wie de Software wordt verstrekt dit te laten doen, onder voorbehoud van de volgende voorwaarden:
+De bovenstaande copyrightvermelding en deze toestemmingsverklaring dienen te worden opgenomen in alle kopieën of substantiële delen van de Software.
+DE SOFTWARE WORDT GELEVERD "AS IS", ZONDER GARANTIE VAN ENIGE AARD, UITDRUKKELIJK OF IMPLICIET, INCLUSIEF MAAR NIET BEPERKT TOT DE GARANTIES VAN VERKOOPBAARHEID, GESCHIKTHEID VOOR EEN SPECIFIEK DOEL EN NIET-INBREUK. IN GEEN ENKELE GEVAL ZULLEN DE AUTEURS OF DE COPYRIGHTHOUDBERS AANSPRAKELIJK ZIJN VOOR ENIGE EIS, SCHADE OF ANDERE AANSPRAKELIJKHEID, HETZIJ IN EEN ACTIE VAN CONTRACT, ONRECHTMATIGE DAAD OF ANDERSIPS, DIE VOORTVLOEIT UIT, OF IN VERBAND STAAT MET DE SOFTWARE OF HET GEBRUIK OF ANDERE HANDELINGEN IN DE SOFTWARE.
+-------------------------
