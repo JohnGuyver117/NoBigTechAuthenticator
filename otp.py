@@ -31,6 +31,8 @@ translations = {
         'password_changed': 'Wachtwoord gewijzigd!',
         'enter_old_password': 'Huidig wachtwoord invoeren:',
         'enter_new_password': 'Nieuw wachtwoord invoeren:',
+        'otp_copied': 'OTP-code {code} gekopieerd!',
+        'copied': 'Gekopieerd',
     },
     'en': {
         'title': '🔐 No Big Tech Authenticator',
@@ -54,6 +56,8 @@ translations = {
         'password_changed': 'Password changed!',
         'enter_old_password': 'Enter current password:',
         'enter_new_password': 'Enter new password:',
+        'otp_copied': 'OTP-code {code} copied!',
+        'copied': 'Copied',
     },
     "de": {
         'title': '🔐 No Big Tech Authenticator',
@@ -77,6 +81,8 @@ translations = {
         'password_changed': 'Passwort geändert!',
         'enter_old_password': 'Aktuelles Passwort eingeben:',
         'enter_new_password': 'Neues Passwort eingeben:',
+        'otp_copied': 'OTP-Code {code} kopiert!',
+        'copied': 'Kopiert',
     },
 
     "fr": {
@@ -101,6 +107,8 @@ translations = {
         'password_changed': 'Mot de passe modifié !',
         'enter_old_password': 'Entrer le mot de passe actuel:',
         'enter_new_password': 'Entrer le nouveau mot de passe:',
+        'otp_copied': 'Code OTP {code} copié!',
+        'copied': 'Copié',
     },
 
     "it": {
@@ -125,6 +133,8 @@ translations = {
         'password_changed': 'Password modificata!',
         'enter_old_password': 'Inserisci la password attuale:',
         'enter_new_password': 'Inserisci la nuova password:',
+        'otp_copied': 'Codice OTP {code} copiato!',
+        'copied': 'Copiato',
     },
 
     "es": {
@@ -149,6 +159,8 @@ translations = {
         'password_changed': '¡Contraseña cambiada!',
         'enter_old_password': 'Ingrese la contraseña actual:',
         'enter_new_password': 'Ingrese nueva contraseña:',
+        'otp_copied': 'Código OTP {code} copiado!',
+        'copied': 'Copiado',
     },
 
     "pt": {
@@ -173,6 +185,8 @@ translations = {
         'password_changed': 'Senha alterada!',
         'enter_old_password': 'Digite a senha atual:',
         'enter_new_password': 'Digite a nova senha:',
+        'otp_copied': 'Código OTP {code} copiado!',
+        'copied': 'Copiado',
     },
 
     "da": {
@@ -197,6 +211,8 @@ translations = {
         'password_changed': 'Kodeord ændret!',
         'enter_old_password': 'Indtast nuværende kodeord:',
         'enter_new_password': 'Indtast det nye kodeord:',
+        'otp_copied': 'OTP-kode {code} kopieret!',
+        'copied': 'Kopieret',
     },
     "sv": {  # Zweeds
         'title': '🔐 No Big Tech Authenticator',
@@ -220,6 +236,8 @@ translations = {
         'password_changed': 'Lösenord ändrat!',
         'enter_old_password': 'Ange nuvarande lösenord:',
         'enter_new_password': 'Ange nytt lösenord:',
+        'otp_copied': 'OTP-kod {code} kopierad!',
+        'copied': 'Kopierad',
     },
 
     "no": {  # Noors
@@ -244,6 +262,8 @@ translations = {
         'password_changed': 'Passord endret!',
         'enter_old_password': 'Oppgi nåværende passord:',
         'enter_new_password': 'Skriv inn nytt passord:',
+        'otp_copied': 'OTP-kode {code} kopiert!',
+        'copied': 'Kopiert',
     },
 
     "fi": {  # Fins
@@ -268,7 +288,10 @@ translations = {
         'password_changed': 'Salasana muutettu!',
         'enter_old_password': 'Anna nykyinen salasana:',
         'enter_new_password': 'Anna uusi salasana:',
+        'otp_copied': 'OTP-koodi {code} kopioitu!',
+        'copied': 'Kopioitu',
     },
+
     "pl": {  # Pools
         'title': '🔐 No Big Tech Authenticator',
         'set_password': 'Ustaw nowe hasło:',
@@ -291,6 +314,8 @@ translations = {
         'password_changed': 'Hasło zmienione!',
         'enter_old_password': 'Wprowadź aktualne hasło:',
         'enter_new_password': 'Wprowadź nowe hasło:',
+        'otp_copied': 'Kod OTP {code} skopiowany!',
+        'copied': 'Skopiowano',
     },
 
     "hu": {  # Hongaars
@@ -315,6 +340,8 @@ translations = {
         'password_changed': 'Jelszó megváltoztatva!',
         'enter_old_password': 'Adja meg a jelenlegi jelszavát:',
         'enter_new_password': 'Adja meg az új jelszót:',
+        'otp_copied': 'OTP-kód ({code}) kimásolva!',
+        'copied': 'Kimásolva',
     },
 
     "sr": {  # Servisch (Cyrillisch alfabet)
@@ -339,6 +366,8 @@ translations = {
         'password_changed': 'Лозинка промењена!',
         'enter_old_password': 'Унесите тренутну лозинку:',
         'enter_new_password': 'Унесите нову лозинку:',
+        'otp_copied': 'OTP код {code} копиран!',
+        'copied': 'Копирано',
     },
     "sl": {  # Sloveens
         'title': '🔐 No Big Tech Authenticator',
@@ -362,6 +391,8 @@ translations = {
         'password_changed': 'Geslo je spremenjeno!',
         'enter_old_password': 'Vnesi trenutno geslo:',
         'enter_new_password': 'Vnesi novo geslo:',
+        'otp_copied': 'OTP koda {code} kopirana!',
+        'copied': 'Kopirano',
     },
 
     "hr": {  # Kroatisch
@@ -386,6 +417,8 @@ translations = {
         'password_changed': 'Lozinka promijenjena!',
         'enter_old_password': 'Unesi trenutnu lozinku:',
         'enter_new_password': 'Unesi novu lozinku:',
+        'otp_copied': 'OTP kod {code} kopiran!',
+        'copied': 'Kopirano',
     },
 
     "bs": {  # Bosnisch
@@ -410,7 +443,10 @@ translations = {
         'password_changed': 'Lozinka promijenjena!',
         'enter_old_password': 'Unesite trenutnu lozinku:',
         'enter_new_password': 'Unesite novu lozinku:',
+        'otp_copied': 'OTP kod {code} kopiran!',
+        'copied': 'Kopirano',
     },
+
     "ro": {  # Roemeens
         'title': '🔐 No Big Tech Authenticator',
         'set_password': 'Setați o parolă nouă:',
@@ -433,6 +469,8 @@ translations = {
         'password_changed': 'Parolă schimbată!',
         'enter_old_password': 'Introduceți parola curentă:',
         'enter_new_password': 'Introduceți parola nouă:',
+        'otp_copied': 'Codul OTP {code} a fost copiat!',
+        'copied': 'Copiat',
     },
 
     "bg": {  # Bulgaars
@@ -457,6 +495,8 @@ translations = {
         'password_changed': 'Паролата е променена!',
         'enter_old_password': 'Въведете текущата парола:',
         'enter_new_password': 'Въведете нова парола:',
+        'otp_copied': 'OTP кодът {code} е копиран!',
+        'copied': 'Копирано',
     },
 
     "el": {  # Grieks
@@ -481,7 +521,10 @@ translations = {
         'password_changed': 'Ο κωδικός άλλαξε!',
         'enter_old_password': 'Εισαγάγετε τον τρέχοντα κωδικό:',
         'enter_new_password': 'Εισαγάγετε νέο κωδικό:',
+        'otp_copied': 'Ο κωδικός OTP {code} αντιγράφηκε!',
+        'copied': 'Αντιγράφηκε',
     },
+
     "tr": {  # Turks
         'title': '🔐 No Big Tech Authenticator',
         'set_password': 'Yeni şifre oluştur:',
@@ -504,9 +547,11 @@ translations = {
         'password_changed': 'Şifre değiştirildi!',
         'enter_old_password': 'Mevcut şifreyi girin:',
         'enter_new_password': 'Yeni şifreyi girin:',
+         'otp_copied': 'OTP kodu {code} kopyalandı!',
+        'copied': 'Kopyalandı',
     },
 
-    "ar": {  # Arabisch (Marokkaans Arabisch - Darija is een gesproken dialect, ik gebruik standaard modern Arabisch)
+    "ar": {  # Arabisch (Marokkaans Arabisch)
         'title': '🔐 مصادق بدون شركات كبرى',
         'set_password': 'قم بتعيين كلمة مرور جديدة:',
         'confirm_password': 'أكد كلمة المرور:',
@@ -528,6 +573,8 @@ translations = {
         'password_changed': 'تم تغيير كلمة المرور!',
         'enter_old_password': 'أدخل كلمة المرور الحالية:',
         'enter_new_password': 'أدخل كلمة المرور الجديدة:',
+        'otp_copied': 'تم نسخ رمز OTP {code}!',
+        'copied': 'تم النسخ',
     },
 
     "zh": {  # Chinees (Vereenvoudigd Mandarijn)
@@ -552,6 +599,8 @@ translations = {
         'password_changed': '密码已更改！',
         'enter_old_password': '输入当前密码：',
         'enter_new_password': '输入新密码：',
+        'otp_copied': 'OTP代码{code}已复制！',
+        'copied': '已复制',
     },
     "ko": {  # Koreaans
         'title': '🔐 No Big Tech 인증기',
@@ -575,6 +624,8 @@ translations = {
         'password_changed': '암호가 변경되었습니다!',
         'enter_old_password': '현재 암호 입력:',
         'enter_new_password': '새로운 암호 입력:',
+        'otp_copied': 'OTP 코드 {code} 복사됨!',
+        'copied': '복사됨',
     },
 
     "id": {  # Indonesisch
@@ -599,6 +650,8 @@ translations = {
         'password_changed': 'Kata sandi diubah!',
         'enter_old_password': 'Masukkan kata sandi saat ini:',
         'enter_new_password': 'Masukkan kata sandi baru:',
+        'otp_copied': 'Kode OTP {code} disalin!',
+        'copied': 'Disalin',
     },
 
     "ja": {  # Japans
@@ -623,7 +676,10 @@ translations = {
         'password_changed': 'パスワードが変更されました！',
         'enter_old_password': '現在のパスワードを入力:',
         'enter_new_password': '新しいパスワードを入力:',
+        'otp_copied': 'OTPコード{code}をコピーしました！',
+        'copied': 'コピー済み',
     },
+
     "cs": {  # Tsjechisch
         'title': '🔐 No Big Tech Authenticator',
         'set_password': 'Nastavit nové heslo:',
@@ -646,6 +702,8 @@ translations = {
         'password_changed': 'Heslo změněno!',
         'enter_old_password': 'Zadejte stávající heslo:',
         'enter_new_password': 'Zadejte nové heslo:',
+        'otp_copied': 'OTP kód {code} zkopírován!',
+        'copied': 'Zkopírováno',
     },
 
     "sk": {  # Slowaaks
@@ -670,6 +728,8 @@ translations = {
         'password_changed': 'Heslo bolo zmenené!',
         'enter_old_password': 'Zadajte aktuálne heslo:',
         'enter_new_password': 'Zadajte nové heslo:',
+        'otp_copied': 'OTP kód {code} skopírovaný!',
+        'copied': 'Skopírované',
     },
 
     "ru": {  # Russisch
@@ -694,7 +754,10 @@ translations = {
         'password_changed': 'Пароль изменен!',
         'enter_old_password': 'Введите текущий пароль:',
         'enter_new_password': 'Введите новый пароль:',
+        'otp_copied': 'OTP-код {code} скопирован!',
+        'copied': 'Скопировано',
     },
+
     "fy": {  # Fries
         'title': '🔐 No Big Tech Authenticator',
         'set_password': 'Stel nij wachtwurd yn:',
@@ -717,6 +780,8 @@ translations = {
         'password_changed': 'Wachtwurd feroare!',
         'enter_old_password': 'Fier hjoeddeisk wachtwurd yn:',
         'enter_new_password': 'Fier nij wachtwurd yn:',
+        'otp_copied': 'OTP-koade {code} kopiearre!',
+        'copied': 'Kopiearre',
     },
 
     "cy": {  # Welsh
@@ -741,6 +806,8 @@ translations = {
         'password_changed': 'Mae’r cyfrinair wedi’i newid!',
         'enter_old_password': 'Rhowch gyfrinair cyfredol:',
         'enter_new_password': 'Rhowch gyfrinair newydd:',
+        'otp_copied': 'Copïwyd cod OTP {code}!',
+        'copied': 'Wedi copïo',
     },
 
     "ga": {  # Iers(Gaeilge)
@@ -765,7 +832,10 @@ translations = {
         'password_changed': 'Tá an pasfhocal athraithe!',
         'enter_old_password': 'Cuir isteach an pasfhocal reatha:',
         'enter_new_password': 'Cuir isteach pasfhocal nua:',
+        'otp_copied': 'Cóipeáladh cód OTP {code}!',
+        'copied': 'Cóipeáladh',
     },
+
     "gd": {  # Schots Gaelisch
         'title': '🔐 Authenticator Gun Big Tech',
         'set_password': 'Suidhich facal-faire ùr:',
@@ -788,6 +858,8 @@ translations = {
         'password_changed': 'Facal-faire air atharrachadh!',
         'enter_old_password': 'Cuir a-steach am facal-faire làithreach:',
         'enter_new_password': 'Cuir a-steach am facal-faire ùr:',
+        'otp_copied': 'Chaidh an còd OTP {code} a chopaigeadh!',
+        'copied': 'Air a chopaigeadh',
     },
 
     "is": {  # IJslands
@@ -812,6 +884,8 @@ translations = {
         'password_changed': 'Lykilorði breytt!',
         'enter_old_password': 'Sláðu inn núverandi lykilorð:',
         'enter_new_password': 'Sláðu inn nýtt lykilorð:',
+        'otp_copied': 'OTP kóði {code} afritaður!',
+        'copied': 'Afritað',
     },
 
     "mt": {  # Maltees
@@ -836,6 +910,8 @@ translations = {
         'password_changed': 'Il-password inbidlet!',
         'enter_old_password': 'Daħħal il-password kurrenti:',
         'enter_new_password': 'Daħħal il-password il-ġdida:',
+        'otp_copied': 'Kodiċi OTP {code} ikkupjat!',
+        'copied': 'Ikkupjat',
     },
 }
 
@@ -859,8 +935,7 @@ class AuthenticatorApp(ctk.CTk):
         self.update_gui()
         self.update_codes()
 
-    def derive_key(self, pwd):
-        salt = b'unieke_fixed_salt'
+    def derive_key(self, pwd, salt):
         kdf = hashlib.pbkdf2_hmac('sha256', pwd.encode(), salt, 100_000)
         return base64.urlsafe_b64encode(kdf)
 
@@ -868,41 +943,54 @@ class AuthenticatorApp(ctk.CTk):
         while True:
             pwd1 = self.ask_password(self.lang['set_password'])
             pwd2 = self.ask_password(self.lang['confirm_password'])
+            
             if pwd1 is None or pwd2 is None:
                 continue
             if pwd1 != pwd2:
                 CTkMessagebox(message=self.lang['password_mismatch'], icon='cancel')
                 continue
-            self.key = self.derive_key(pwd1)
-            self.save_secrets()
+
+            salt = os.urandom(16)  # salt 128 bits is sufficient
+            self.key = self.derive_key(pwd1, salt)
+            self.save_secrets(salt)
             break
 
     def prompt_and_load_data(self):
         for _ in range(3):
             pwd = self.ask_password(self.lang['unlock_password'])
-            if pwd is None:
+            if not pwd:
                 return False
-            self.key = self.derive_key(pwd)
             try:
                 with open(SECRETS_FILE, 'rb') as f:
-                    encrypted = f.read()
-                data = Fernet(self.key).decrypt(encrypted)
-                self.secrets = json.loads(data)
+                    file_content = f.read()
+                    salt, encrypted = file_content[:16], file_content[16:]
+                    self.key = self.derive_key(pwd, salt)
+                    data = Fernet(self.key).decrypt(encrypted)
+                    self.secrets = json.loads(data)
                 return True
             except InvalidToken:
-                CTkMessagebox(message=self.lang['wrong_password'], icon='cancel')
+                CTkMessagebox(message=self.lang['wrong_password'], icon="cancel")
+            except FileNotFoundError:
+                CTkMessagebox(message="Secrets-bestand niet gevonden!", icon="cancel")
+                return False
         return False
 
-    def save_secrets(self):
-        encrypted = Fernet(self.key).encrypt(json.dumps(self.secrets).encode())
+    def save_secrets(self, salt):
+        data = json.dumps(self.secrets).encode()
+        encrypted = Fernet(self.key).encrypt(data)
         with open(SECRETS_FILE, 'wb') as f:
-            f.write(encrypted)
+            f.write(salt + encrypted)  # sla salt direct voor ciphertext op
+
 
     def copy_to_clipboard(self, text):
         self.clipboard_clear()
         self.clipboard_append(text)
         self.update()
-        CTkMessagebox(message=f'OTP-code {text} gekopieerd!', icon='info', title='Gekopieerd')
+        CTkMessagebox(
+            message=self.lang['otp_copied'].format(code=text),
+            icon='info',
+            title=self.lang['copied']
+        )
 
     def ask_password(self, prompt):
         pwd = None
@@ -916,9 +1004,10 @@ class AuthenticatorApp(ctk.CTk):
         dialog.title(self.lang['title'])
         dialog.geometry("350x150")
         dialog.resizable(False, False)
-
+        
         dialog.transient(self)
-        dialog.grab_set()
+        dialog.wait_visibility()  
+        dialog.grab_set()         
         dialog.focus()
         dialog.attributes('-topmost', True)
         dialog.after(10, lambda: dialog.attributes('-topmost', False))
@@ -952,7 +1041,7 @@ class AuthenticatorApp(ctk.CTk):
         fr2.pack(pady=5)
         ctk.CTkButton(fr2, text=self.lang['change_password'], command=self.change_password, fg_color='green').pack(side='left', padx=5)
         ctk.CTkButton(fr2, text=self.lang['close_app'], command=self.destroy, fg_color='firebrick').pack(side='left', padx=5)
-        
+
     def update_gui(self):
         for widget in self.frame.winfo_children():
             widget.destroy()
@@ -978,6 +1067,7 @@ class AuthenticatorApp(ctk.CTk):
             btn_copy = ctk.CTkButton(frm, text='📋', width=30,
                 command=lambda lbl=code_lbl: self.copy_to_clipboard(lbl.cget('text')))
             btn_copy.pack(side='right', padx=5)
+
 
     def update_codes(self):
         for name, secret in self.secrets.items():
@@ -1030,8 +1120,13 @@ class AuthenticatorApp(ctk.CTk):
 def main():
 
     parser = argparse.ArgumentParser(description='No Big Tech Authenticator - CustomTkinter version')
+
     parser.add_argument('-t', '--language', type=str, default='en', help='Set the language (bijvoorbeeld -t en voor Engels, -t nl voor Nederlands)')
+
     args = parser.parse_args()
+
+    # supported languages as provided
+
     supported_languages = "ar bg bs cs cy da de el en es fi fr fy ga gd hr hu id is it ja ko mt nl no pl pt ro ru sk sl sr sv tr zh".split()
     lang = args.language if args.language in supported_languages else 'en'
 
