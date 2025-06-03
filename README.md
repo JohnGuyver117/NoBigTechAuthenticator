@@ -18,7 +18,7 @@ You can run it with Python 3.
 
 1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/);
 2. Run **pip install customtkinter pyotp cryptography**;
-3. Start the authenticator with **python3 otp.py** or with **python3 otp.py --language [land code]**.
+3. Start the authenticator with **python3 NBTauth.py** or with **python3 NBTauth.py --language [land code]**.
 
 supported languages [land codes]: "ar bg bs cs cy da de el en es fi fr fy ga gd hr hu id is it ja ko mt nl no pl pt ro ru sk sl sr sv tr zh"
 
