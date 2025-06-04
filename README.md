@@ -55,7 +55,7 @@ Je kunt het programma met Python 3 uitvoeren.
 
 1. Installeer Python van [https://www.python.org/downloads/](https://www.python.org/downloads/);
 2. Voer na installatie dit commando uit: **pip install customtkinter pyotp cryptography**;
-3. Vanaf nu start je de authenticator als volgt: **python3 NoBigTechAuth.py**.
+3. Vanaf nu start je de authenticator als volgt: **python3 NBTauth.py**.
 
 ### Veiligheid
 
