@@ -12,7 +12,7 @@ A little less dependent on Big Tech with this open source Authenticator for Two-
 - Supports 2FA and MFA.
 - Data is securely stored in an encrypted file.
 
-### Installation Instructions
+### Installation Instructions option 1 using it like a python 3 script
 
 You can run it with Python 3.
 
@@ -20,7 +20,21 @@ You can run it with Python 3.
 2. Run **pip install customtkinter CTKMessagebox pyotp cryptography**;
 3. Start the authenticator with **python3 NBTauth.py** or with **python3 nbtauth.py --language [land code]**.
 
-supported languages [land codes]: "ar bg bs cs cy da de el en es fi fr fy ga gd hr hu id is it ja ko mt nl no pl pt ro ru sk sl sr sv tr zh"
+### Installation Instructions option 2 as pip package with git/gh
+
+Use with **pip**
+
+1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/);
+2. if you don't use git or gh just download the repo as zip file from https://github.com/JohnGuyver117/nbtauth.git and unzip it. Continu to step 4;
+3. Clone this repo with **gh repo clone JohnGuyver117/nbtauth**;
+4. Start your command prompt or shell and navigate to the nbtauth directoery.
+5. In the command prompt enter this **pip install .** command and hit **enter**;
+6. Start the authenticator with **nbtauth** or **nbtauth --language [land code]**.
+
+
+### Language support
+
+Supported languages [land codes]: "ar bg bs cs cy da de el en es fi fr fy ga gd hr hu id is it ja ko mt nl no pl pt ro ru sk sl sr sv tr zh"
 
 ### Security
 
