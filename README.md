@@ -1,4 +1,4 @@
-# No Big Tech Authenticator
+# No Big Tech Authenticator (nbtauth)
 
 ## English
 
@@ -18,7 +18,7 @@ You can run it with Python 3.
 
 1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/);
 2. Run **pip install customtkinter pyotp cryptography**;
-3. Start the authenticator with **python3 NBTauth.py** or with **python3 NBTauth.py --language [land code]**.
+3. Start the authenticator with **python3 NBTauth.py** or with **python3 nbtauth.py --language [land code]**.
 
 supported languages [land codes]: "ar bg bs cs cy da de el en es fi fr fy ga gd hr hu id is it ja ko mt nl no pl pt ro ru sk sl sr sv tr zh"
 
@@ -55,7 +55,7 @@ Je kunt het programma met Python 3 uitvoeren.
 
 1. Installeer Python van [https://www.python.org/downloads/](https://www.python.org/downloads/);
 2. Voer na installatie dit commando uit: **pip install customtkinter pyotp cryptography**;
-3. Vanaf nu start je de authenticator als volgt: **python3 NBTauth.py**.
+3. Vanaf nu start je de authenticator als volgt: **python3 nbtauth.py**.
 
 ### Veiligheid
 
