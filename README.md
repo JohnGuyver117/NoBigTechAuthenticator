@@ -24,7 +24,7 @@ You can run it with Python 3.
 
 
 1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/) and git;
-2. Go to your command prompt enter **pip install https://github.com/JohnGuyver117/nbtauth.git**;
+2. Go to your command prompt enter **pip install git+https://github.com/JohnGuyver117/nbtauth.git**;
 3. Start the authenticator with **nbtauth** or **nbtauth --language [land code]**.
 
 
