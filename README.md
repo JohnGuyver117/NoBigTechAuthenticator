@@ -20,16 +20,12 @@ You can run it with Python 3.
 2. Run **pip install customtkinter CTKMessagebox pyotp cryptography**;
 3. Start the authenticator with **python3 nbtauth.py** or with **python3 nbtauth.py --language [land code]**.
 
-### Installation Instructions option 2 as pip package with git/gh
+### Installation Instructions option 2 as pip package
 
-Use with **pip**
 
-1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/);
-2. if you don't use git or gh just download the repo as zip file from https://github.com/JohnGuyver117/nbtauth.git and unzip it. Continu to step 4;
-3. Clone this repo with **gh repo clone JohnGuyver117/nbtauth**;
-4. Start your command prompt or shell and navigate to the nbtauth directoery.
-5. In the command prompt enter this **pip install .** command and hit **enter**;
-6. Start the authenticator with **nbtauth** or **nbtauth --language [land code]**.
+1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/) and git;
+2. Go to your command prompt enter **pip install https://github.com/JohnGuyver117/nbtauth.git**;
+3. Start the authenticator with **nbtauth** or **nbtauth --language [land code]**.
 
 
 ### Language support
