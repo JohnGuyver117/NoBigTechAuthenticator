@@ -18,7 +18,7 @@ You can run it with Python 3.
 
 1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/);
 2. Run **pip install customtkinter CTKMessagebox pyotp cryptography**;
-3. Start the authenticator with **python3 NBTauth.py** or with **python3 nbtauth.py --language [land code]**.
+3. Start the authenticator with **python3 nbtauth.py** or with **python3 nbtauth.py --language [land code]**.
 
 ### Installation Instructions option 2 as pip package with git/gh
 
