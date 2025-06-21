@@ -1,0 +1,4 @@
+customtkinter
+pyotp
+cryptography
+CTkMessagebox
