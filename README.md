@@ -12,6 +12,16 @@ A little less dependent on Big Tech with this open source Authenticator for Two-
 - Supports 2FA and MFA.
 - Data is securely stored in an encrypted file.
 
+### For Microsoft Windows recommended and fastes way to get nbtauth working
+
+Download the **nbtauth.exe** from the **dist** folder.
+Put **nbtauth.exe** file in a folder where you want it to be.
+Double click on it to start it in English.
+If you want to use it with another language, make a shortcut and add --language [land code].
+For example **nbtauh.exe --language nl** for using the application in Dutch.
+
+See the **language support** entry for the supported languages and corresponding land codes.
+
 ### Installation Instructions option 1 using it like a python 3 script
 
 You can run it with Python 3.
@@ -21,7 +31,6 @@ You can run it with Python 3.
 3. Start the authenticator with **python3 nbtauth.py** or with **python3 nbtauth.py --language [land code]**.
 
 ### Installation Instructions option 2 as pip package
-
 
 1. Install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/) and git;
 2. Go to your command prompt enter **pip install git+https://github.com/JohnGuyver117/nbtauth.git**;
