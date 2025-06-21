@@ -6,6 +6,8 @@ import hashlib, base64
 from cryptography.fernet import Fernet, InvalidToken
 import argparse
 
+
+CONFIG_FILE = 'config.json'
 SECRETS_FILE = 'authenticator_secrets.enc'
 
 translations = {
@@ -33,6 +35,9 @@ translations = {
         'enter_new_password': 'Nieuw wachtwoord invoeren:',
         'otp_copied': 'OTP-code {code} gekopieerd!',
         'copied': 'Gekopieerd',
+        'Select file location to save secret file.': 'Selecteer opslag locatie voor het secrets bestand.',
+        'No file selected. Application closes.': 'Geen bestand geselecteerd, applicatie wordt gesloten.',
+        'Encrypted files': 'Versleutelde bestanden',
     },
     'en': {
         'title': '🔐 No Big Tech Authenticator',
@@ -58,6 +63,9 @@ translations = {
         'enter_new_password': 'Enter new password:',
         'otp_copied': 'OTP-code {code} copied!',
         'copied': 'Copied',
+        'Select file location to save secret file.':'Select file location to save secret file.',
+        'No file selected. Application closes.':'No file selected. Application closes.',
+        'Encrypted files':'Encrypted files',
     },
     "de": {
         'title': '🔐 No Big Tech Authenticator',
@@ -923,8 +931,28 @@ class AuthenticatorApp(ctk.CTk):
         self.geometry("500x400")
         ctk.set_appearance_mode('dark')
 
-        self.secrets, self.labels = {}, {}
+        self.config = self.load_config()
+        self.secret_file = self.config.get('secret_file_path')
 
+        if not self.secret_file or not os.path.exists(self.secret_file):
+
+            folder = ctk.filedialog.asksaveasfilename(
+
+                title=self.lang['Select file location to save secret file.'],
+                filetypes=[(self.lang['Encrypted files'], '*.enc')],
+                defaultextension='.enc'
+            )
+
+            if not folder:
+                CTkMessagebox(message=self.lang['No file selected. Application closes.'])
+                self.destroy()
+                return
+
+            self.secret_file = folder
+            self.config['secret_file_path'] = self.secret_file
+            self.save_config(self.config)
+
+        self.secrets, self.labels = {}, {}
         if not os.path.exists(SECRETS_FILE):
             self.create_initial_password()
         elif not self.prompt_and_load_data():
@@ -934,6 +962,16 @@ class AuthenticatorApp(ctk.CTk):
         self.build_ui()
         self.update_gui()
         self.update_codes()
+
+    def load_config(self):
+        if os.path.exists(CONFIG_FILE):
+            with open(CONFIG_FILE, 'r') as file:
+                return json.load(file)
+        return {}
+
+    def save_config(self,config):
+        with open(CONFIG_FILE, 'w') as file:
+            json.dump(config, file, indent=4)
 
     def derive_key(self, pwd, salt):
         kdf = hashlib.pbkdf2_hmac('sha256', pwd.encode(), salt, 100_000)
@@ -976,11 +1014,13 @@ class AuthenticatorApp(ctk.CTk):
         return False
 
     def save_secrets(self, salt):
-        data = json.dumps(self.secrets).encode()
+        data = json.dumps({
+            'salt': base64.urlsafe_b64encode(salt).decode(), 
+            'secrets': self.secrets
+        }).encode()
         encrypted = Fernet(self.key).encrypt(data)
-        with open(SECRETS_FILE, 'wb') as f:
-            f.write(salt + encrypted)  # sla salt direct voor ciphertext op
-
+        with open(self.secret_file, 'wb') as f:
+            f.write(encrypted)
 
     def copy_to_clipboard(self, text):
         self.clipboard_clear()
@@ -1068,7 +1108,6 @@ class AuthenticatorApp(ctk.CTk):
                 command=lambda lbl=code_lbl: self.copy_to_clipboard(lbl.cget('text')))
             btn_copy.pack(side='right', padx=5)
 
-
     def update_codes(self):
         for name, secret in self.secrets.items():
             if name in self.labels:
@@ -1078,19 +1117,51 @@ class AuthenticatorApp(ctk.CTk):
         self.after(1000, self.update_codes)
 
     def add_account(self):
-        naam = ctk.CTkInputDialog(text=self.lang['account_name'], title=self.lang['new_account']).get_input()
+        naam = ctk.CTkInputDialog(
+            text=self.lang['account_name'], 
+            title=self.lang['new_account']
+        ).get_input()
+        
         if naam:
-            secret = ctk.CTkInputDialog(text=f"{self.lang['enter_secret']} {naam}", title=self.lang['new_account']).get_input()
+            secret = ctk.CTkInputDialog(
+                text=f"{self.lang['enter_secret']} {naam}", 
+                title=self.lang['new_account']
+            ).get_input()
+            
             if secret:
-                secret = secret.strip().replace(" ","").upper()
+                # Duidelijk opschonen van secret
+                secret = secret.strip().replace(" ", "").replace("\n", "").upper()
+
+                # Duidelijke validatie toevoegen met behulp van PyOTP
                 try:
-                    pyotp.TOTP(secret).now()
-                    self.secrets[naam] = secret
-                    self.save_secrets()
+                    # Simpelweg proberen te genereren om secret duidelijk te testen:
+                    test_otp = pyotp.TOTP(secret).now()
+                except Exception as e:
+                    # Toon duidelijk de specifieke foutmelding van pyotp
+                    print(str(e))
+                    CTkMessagebox(message=f"{self.lang['invalid_secret']}\n({str(e)})",
+                                icon='cancel')
+                    return 
+
+                # Als het secret correct is, dan opslaan:
+                self.secrets[naam] = secret
+                
+                try:
+                    # Genereer expliciet telkens verse (nieuwe) salt bij opslaan:
+                    salt = os.urandom(32)
+                    self.save_secrets(salt)
                     self.update_gui()
-                    CTkMessagebox(message=self.lang['added'], icon='info')
-                except:
-                    CTkMessagebox(message=self.lang['invalid_secret'], icon='cancel')
+                    CTkMessagebox(
+                        message=self.lang['added'],
+                        icon='info'
+                    )
+                except Exception as e:
+                    print(str(e))
+                    CTkMessagebox(
+                        message=f"Error saving secret:\n({str(e)})",
+                        icon='cancel'
+                    )
+
 
     def remove_account(self):
         if not self.secrets:
